@@ -47,8 +47,11 @@
             <groupId>io.springfox</groupId>
             <artifactId>springfox-swagger-ui</artifactId>
         </dependency>
+        <dependency>
+            <groupId>commons-codec</groupId>
+            <artifactId>commons-codec</artifactId>
+        </dependency>
     </dependencies>
-
 
     <build>
         <finalName>sharding-ui</finalName>
@@ -108,5 +111,4 @@
             </plugin>
         </plugins>
     </build>
-
 </project>
